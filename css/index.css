@@ -1,0 +1,59 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Ubuntu;
+     color: #333;
+}
+main{
+     height: 100vh;
+     display: flex;
+     background-color: #ececec;
+     width: 100%;
+     padding: 10px;
+}
+.container{
+     width: 100%;
+     max-width: 375px;
+     margin: auto;
+     background-color: #fff;
+     padding: 20px;
+     border-radius: 10px;
+}
+.container > h1{
+     text-align: center;
+     line-height: 0px;
+     margin: 10px;
+}
+.count-el{
+     font-size: 100px;
+     display: block;
+     text-align: center;
+}
+.buttons{
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+}
+.btn{
+     width: 80px;
+     border: none;
+     padding: 4px;
+     font-size: 20px;
+     color: #fff;
+     transition: all 0.3s ease;
+     opacity: 0.4;
+}
+.btn:hover{
+     cursor: pointer;
+     opacity: 1;
+}
+#decrement{
+     background-color: tomato;
+}
+#Reset{
+     background-color: #333;
+}
+#increment{
+     background-color: #5eb963;
+}
